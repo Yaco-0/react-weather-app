@@ -74,3 +74,12 @@
         margin-right: 0;
     }
 }
+
+@media (max-width:450px) {
+    .city-info{
+        flex-direction: column;
+    }
+    .city-info .logo{
+        margin-top: 50px;
+    }
+}

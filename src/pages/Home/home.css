@@ -27,6 +27,7 @@
     .home{
         max-width: 100%;
         justify-content:center;
+        align-items: center;
 
     }
     .home .left{
