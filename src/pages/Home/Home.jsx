@@ -11,9 +11,9 @@ const Home = () => {
                 <CitySearch/>
                 <AirCondition/>
             </div>
-            <div className="right">
+            {/* <div className="right">
                 <DailyForecast/>
-            </div>
+            </div> */}
         </div>
      );
 }

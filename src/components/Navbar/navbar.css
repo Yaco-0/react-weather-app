@@ -12,10 +12,12 @@
     z-index: 2;
 }
 
-.nav .links a{
+.nav .links h1{
     text-decoration: none;
-    font-size:1rem;
+    font-size:2.5rem;
+    font-weight: 600;
     color: #FFFFFF;
+    transform: rotate(-90deg);
 }
 
 @media (max-width:1250px) {
@@ -26,6 +28,9 @@
         left: 0;
         border-radius: 0;
     }
+    .nav .links h1{
+        transform: rotate(0 );
+    }
 }
 
 @media (max-width:729px) {
@@ -35,5 +40,9 @@
         top: 0;
         left: 0;
         border-radius: 0;
+    }
+
+    .nav .links h1{
+        transform: rotate(0 );
     }
 }
